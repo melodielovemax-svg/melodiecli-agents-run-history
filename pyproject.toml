@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "melodiecli-agents-run-history"
+version = "0.1.0"
+description = "agent coordination tooling: run history (status: PLANNED)"
+requires-python = ">=3.11"
+license = { text = "UNLICENSED" }
+
+[project.scripts]
+melodiecli-agents-run-history = "melodiecli_agents_run_history.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["melodiecli_agents_run_history*"]

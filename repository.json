@@ -1,0 +1,12 @@
+{
+  "category": "agents",
+  "dependencies": [],
+  "description": "agent coordination tooling: run history",
+  "module": "melodiecli_agents_run_history",
+  "name": "melodiecli-agents-run-history",
+  "owner": null,
+  "product_status": "PLANNED",
+  "publication_status": "NOT_PUBLISHED",
+  "requested_visibility": "PUBLIC",
+  "responsibility": "run history"
+}
